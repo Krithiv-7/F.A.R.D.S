@@ -1,0 +1,61 @@
+FARDS-Drone-System/
+│
+├── 📁 drone-firmware/                  # Drone firmware & flight path configs
+│   ├── README.md                      # Flashing & configuration guide
+│   ├── px4-config/                    # Custom PX4 or ArduPilot configuration
+│   ├── flight-paths/                  # Mission & waypoint definitions
+│   └── test-logs/                     # Logs from firmware-level flight tests
+│
+├── 📁 fire-detection-ai/              # Fire detection AI pipeline
+│   ├── README.md                      # Model architecture, training details
+│   ├── dataset/                       # Sample training/test data
+│   ├── model/                         # Exported models (.pt, .onnx, etc.)
+│   ├── scripts/
+│   │   ├── preprocess.py              # Dataset cleaning and transformation
+│   │   ├── detect_fire.py             # Inference logic + bounding box overlay
+│   │   └── area_estimation.py         # Calculates estimated fire spread
+│   └── tests/                         # PyTest/Unittest for model + scripts
+│
+├── 📁 mission-control-dashboard/      # Web UI for live monitoring
+│   ├── README.md                      # Dashboard stack + development notes
+│   ├── public/                        # Static files (icons, images, fonts)
+│   ├── src/
+│   │   ├── components/                # React components
+│   │   ├── pages/                     # Routing pages
+│   │   ├── api/                       # API consumption or routes (if SSR)
+│   │   └── utils/                     # Helper functions (formatting, mapping)
+│   └── package.json                   # Project metadata & dependencies
+│
+├── 📁 backend-api/                    # Backend server for data handling
+│   ├── README.md
+│   ├── app.py                         # Entry point for Flask or FastAPI
+│   ├── routes/                        # Endpoints (e.g., /fire-status, /drone)
+│   ├── services/                      # Core logic (fire estimator, analytics)
+│   ├── models/                        # DB schemas or Pydantic models
+│   └── database/                      # DB files, seeds, migrations
+│
+├── 📁 hardware-design/                # Drone hardware and electronics
+│   ├── README.md
+│   ├── CAD/                           # STL, STEP or Fusion 360 files
+│   ├── components-list.md             # Bill of materials (BOM)
+│   └── circuit-diagram/              # Circuit schematics and wiring layout
+│
+├── 📁 docs/                           # Developer & user documentation
+│   ├── overview.md                    # High-level system description
+│   ├── usage.md                       # How to deploy, test, and run system
+│   ├── team.md                        # Team roles and credits
+│   └── research.md                    # External links and references
+│
+├── 📁 tests/                          # Global test cases
+│   ├── integration/                   # Cross-module tests
+│   ├── unit/                          # Isolated tests for each module
+│   └── test_plan.md                   # Manual + automated testing strategy
+│
+├── .gitignore                         # Files to ignore in commits
+├── .editorconfig                      # IDE/editor formatting rules
+├── README.md                          # Overview, setup, purpose of FARDS
+├── LICENSE                            # Open-source license (e.g., MIT, GPL)
+├── TASKS.md                           # 🗂️ Detailed checklist of all tasks
+├── PLANS.md                           # 📋 Planning document with features/timeline
+├── CASE.md                            # 🔍 Case scenario and motivation
+└── CONTRIBUTING.md                    # 🤝 How to contribute to the project
