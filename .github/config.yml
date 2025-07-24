@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📬 Contact Maintainers
+    url: https://github.com/JustKrith/FARDS-Drone-System/discussions
+    about: Please use GitHub Discussions for support or general questions.
