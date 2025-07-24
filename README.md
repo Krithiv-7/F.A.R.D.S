@@ -121,6 +121,13 @@ We welcome contributions from developers, drone enthusiasts, AI researchers, and
 
 ---
 
+## 📌 Status
+
+> 🔄 **Active Development** — Major modules are being implemented and tested. Roadmap available in [`PLANS.md`](PLANS.md) and [`TASKS.md`](TASKS.md).
+
+
+---
+
 ## 🛡️ License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
