@@ -1,4 +1,4 @@
-FARDS-Drone-System/
+F.A.R.D.S/
 │
 ├── 📁 drone-firmware/                  # Drone firmware & flight path configs
 │   ├── README.md                      # Flashing & configuration guide
