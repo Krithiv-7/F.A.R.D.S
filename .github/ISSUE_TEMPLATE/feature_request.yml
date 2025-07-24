@@ -1,0 +1,35 @@
+name: "🚀 Feature Request"
+description: Suggest a new feature or enhancement
+title: "[Feature] <brief description>"
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Feature Description"
+      description: "Explain the idea and why it would be useful."
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: "Proposed Implementation"
+      description: "If you have a plan in mind, share how it could be implemented."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: components
+    attributes:
+      label: "Relevant Component(s)"
+      multiple: true
+      options:
+        - drone-firmware
+        - fire-detection-ai
+        - mission-control-dashboard
+        - backend-api
+        - hardware-design
+        - docs
+    validations:
+      required: false
